@@ -25,7 +25,7 @@ python TreeBranchLabeller.py \
   - A .nhx output tree with labelled branches. Can be visualised in any way you see fit
   - A simplified .nhx output tree with n labelled branches. Can be visualised in any way you see fit
   - Visualised .png tree constructed in R
-  - Visualised .svg tree constructed in R
+  - Visualised .pdf tree constructed in R
 
 ## Options
 
@@ -66,6 +66,7 @@ R
 install.packages(c("ggplot2", "BiocManager"))
 BiocManager::install("treeio")
 BiocManager::install("ggtree")
+quit()
 ```
 
 ## Requirements and dependancies
@@ -78,4 +79,3 @@ BiocManager::install("ggtree")
   - ggplot2
   - treeio
   - ggtree
-
