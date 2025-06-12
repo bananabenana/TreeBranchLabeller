@@ -11,8 +11,8 @@ conda activate TreeBranchLabeller_v1.0.0
 
 # Output branch labelled tree with up to n=4 features per branch
 python TreeBranchLabeller.py \
-  --tree alignment.tree \
-  --msa alignment.fasta \
+  --tree test_data/input/input_tree.nwk \
+  --msa test_data/input/input_alignment.fasta \
   --output branch_labeled_tree.nhx \
   --simplify_label_count 4
 ```
@@ -67,6 +67,11 @@ install.packages(c("ggplot2", "BiocManager"))
 BiocManager::install("treeio")
 BiocManager::install("ggtree")
 quit()
+```
+5. Test
+```bash
+conda activate TreeBranchLabeller_v1.0.0
+python TreeBranchLabeller.py -h
 ```
 
 ## Requirements and dependancies
