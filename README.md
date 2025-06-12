@@ -1,8 +1,8 @@
 # TreeBranchLabeller
 Annotates tree branches for visualisation of multiple sequence alignments etc. Outputs branch-labelled .nxh files, since newick trees cannot label branches. 
+In the following image, I have highlighted the key residue changes between blaIMP variants, resulting in branch divergences.
 
-
-
+![simplified_labeled_tree](https://github.com/user-attachments/assets/3bc2dac8-d1bf-49ef-aea8-b6a31ed14505)
 
 ## Quick start
 ```bash
@@ -79,3 +79,9 @@ quit()
   - ggplot2
   - treeio
   - ggtree
+ 
+## Author
+- Ben Vezina
+  - ORCID: https://orcid.org/0000-0003-4224-2537
+  - Google Scholar: https://scholar.google.com.au/citations?user=Rf9oh94AAAAJ&hl=en&oi=ao
+
