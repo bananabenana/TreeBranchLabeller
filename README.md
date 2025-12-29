@@ -84,7 +84,11 @@ python TreeBranchLabeller.py -h
   - ggplot2
   - treeio
   - ggtree
- 
+
+## Citation
+Please cite: Vezina, B., Morampalli, B.R., Nguyen, HA. et al. The rise and global spread of IMP carbapenemases (1996-2023): a genomic epidemiology study. Nat Commun (2025). https://doi.org/10.1038/s41467-025-66874-7
+
+
 ## Author
 - Ben Vezina
   - ORCID: https://orcid.org/0000-0003-4224-2537
