@@ -85,6 +85,7 @@ def main(tree_file, msa_file, output_file, simplify_label_count):
     )
     simplified_tree.write(outfile=simplified_output, format=1, features=["branch_label"])
     print(f"Simplified labeled tree written to {simplified_output}")
+    print("Thanks for using TreeBranchLabeller. Please cite Vezina, B., Morampalli, B.R., Nguyen, HA. et al. The rise and global spread of IMP carbapenemases (1996-2023): a genomic epidemiology study. Nat Commun (2025). https://doi.org/10.1038/s41467-025-66874-7")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Label phylogenetic tree with amino acid changes")
@@ -99,7 +100,7 @@ if __name__ == "__main__":
 
     main(args.tree, args.msa, args.output, args.simplify_label_count)
 
-    # Call your R script AFTER main() finishes and args are defined
+    # Call R script AFTER main() to generate plots
     subprocess.run([
         "Rscript",
         r_script_path,
